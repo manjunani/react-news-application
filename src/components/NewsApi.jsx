@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function NewsApi() {
   const [newsData, setNewsData] = useState([]);
-  const APIKEY = '54b24c390f4e4d7bb8f6c90f0f9a0dfd';
+  const APIKEY = 'Your API KEY';
   const URL = `https://newsapi.org/v2/`;
   const categoriesList = [
     'all',
